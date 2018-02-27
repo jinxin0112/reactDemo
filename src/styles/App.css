@@ -13,7 +13,7 @@ html,body{
 .stage{
 	position:relative;
 	width:100%;
-	height:680px;
+	height:800px;
 }
 
 /*stage -- end*/
@@ -25,6 +25,28 @@ html,body{
 	height:100%;
 	overflow: hidden;
 	background:#ddd;
+}
+.img-figure{
+	width:320px;
+	height:360px;
+	margin:0;
+	padding:40px;
+	box-sizing:border-box;
+	background-color:#fff;
+	position:absolute;
+}
+.img-figure img{
+	width:240px;
+	height:240px;
+}
+.img-title{
+	width:100%;
+	text-align: center;
+	height:40px;
+	line-height: 40px;
+	margin:0;
+	color:#a7a0a2;
+	font-size:16px;
 }
 /*img -- end*/
 
